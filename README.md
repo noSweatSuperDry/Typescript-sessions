@@ -2,7 +2,7 @@
  Typescript learnt from Dave Gray @YT
 
 # Where is the link ? 
-https://www.youtube.com/watch?v=bDCPYSanB7A&list=RDCMUCY38RvRIxYODO4penyxUwTg&start_radio=1&rv=bDCPYSanB7A&t=3
+https://www.youtube.com/watch?v=Sj1425gwXxQ&list=PL0Zuz27SZ-6NS8GXt5nPrcYpust89zq_b&index=5
 
 # Is that course is good ? 
 Judge it by yourself!
