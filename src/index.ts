@@ -1,17 +1,30 @@
-const username = "LetMeComeIn";  
-const password = "Letmein1234!";
-console.log(username, password);
+//Lesson 2
+let myName: string;
+let meaningOfLife: number;
+let isLoading: boolean;
+let album: any;
+let songs: string|number;
+// 4 types of variables
 
-//var is for old browsers, let is for new browsers
+album = 515;
+myName = 'Evan';
+meaningOfLife = 42;
+isLoading = true;
 
-const a: number = 12;
-const b: string = "2"; //fix const b: number = "2";
-const c: number = 3;
-console.log(a/b + c);
 
-//noEmitonError: true when its enabled, if there is error , it will not create the js file
-//turnthis on when if you DO NOT WANT TO CREATE JS FILE IF THERE IS ERROR
+const sum = (a: any, b:string)=>{
+    return a + b;
+}
 
-console.log(c*b);
+console.log(sum(1,"2"));
 
-//End of lesson 1
+
+let postId: string|number;
+let isActiveValue: boolean|number;
+let re: RegExp = /\w+/g;  //Regular Expression is RegExp. 
+
+
+
+console.log(album + " : "+myName, meaningOfLife, isLoading);
+
+

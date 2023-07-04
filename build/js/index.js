@@ -1,13 +1,20 @@
 "use strict";
-const username = "LetMeComeIn";
-const password = "Letmein1234!";
-console.log(username, password);
-//var is for old browsers, let is for new browsers
-const a = 12;
-const b = "2"; //fix const b: number = "2";
-const c = 3;
-console.log(a / b + c);
-//noEmitonError: true when its enabled, if there is error , it will not create the js file
-//turnthis on when if you DO NOT WANT TO CREATE JS FILE IF THERE IS ERROR
-console.log(c * b);
-//End of lesson 1
+//Lesson 2
+let myName;
+let meaningOfLife;
+let isLoading;
+let album;
+let songs;
+// 4 types of variables
+album = 515;
+myName = 'Evan';
+meaningOfLife = 42;
+isLoading = true;
+const sum = (a, b) => {
+    return a + b;
+};
+console.log(sum(1, "2"));
+let postId;
+let isActiveValue;
+let re = /\w+/g; //Regular Expression is RegExp. 
+console.log(album + " : " + myName, meaningOfLife, isLoading);
